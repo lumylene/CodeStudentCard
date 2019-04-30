@@ -1,0 +1,85 @@
+/*
+font-family: 'Lato', sans-serif;
+*/
+html,
+body {
+  height: 100%;
+  background-image: url(images/nuages-bleu.jpg);
+  background-position: center; /* center the image */
+  background-repeat: no-repeat;
+  background-size: cover; /* resize the background image to cover the entire*/
+}
+* {
+  font-family: "Lato", sans-serif;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 16px;
+  font-family: "Lato", sans-serif;
+}
+
+h2 {
+  font-size: 32px;
+  margin-bottom: 16px;
+}
+
+/* #profile_picture {
+  width: 10vw; takes 10% of the size of width
+  height: 10vw;
+  border-radius: 6px;
+} */
+
+h3 {
+  font-weight: bold;
+  font-size: 1.1em;
+  margin-top: 20px;
+}
+header {
+  background-color: black;
+  color: white;
+  min-height: 15vh;
+  margin: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+main {
+  min-height: 70vh;
+}
+
+#about-project {
+  display: flex;
+  flex-direction: row;
+}
+section {
+  background-color: rgba(255, 255, 255, 0.5);
+  margin: 20px 15px;
+  border-radius: 20px;
+  padding: 40px 20px;
+}
+#section 1 {
+}
+
+a {
+  margin: 20px;
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+footer {
+  background-color: darkcyan;
+  min-height: 15vh;
+  display: flex;
+  justify-content: center;
+}
+
+#myQuote {
+  margin: 2vh 2vw;
+  font-family: "Lato", sans-serif;
+}
+
+#myQuote p {
+  font-size: 1.4em;
+}
